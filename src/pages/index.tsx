@@ -230,6 +230,10 @@ export default () => {
           }}
         >
           <div>
+            <p style={{ fontWeight: 'bold' }}>
+              结论: 根据应用名, 依赖的类型, 调用次数, 依赖次数,
+              等绘制不同颜色大小, 增加 Legend 筛选
+            </p>
             <a
               style={{ color: 'red' }}
               href="https://echarts.apache.org/examples/zh/editor.html?c=graph-label-overlap"
@@ -238,11 +242,10 @@ export default () => {
             </a>
           </div>
           <div>---</div>
-          <div>数据结构为图, 选择 AntV G6 图布局</div>
+          <div>数据结构为图, 选择图布局</div>
           <div>单个应用调用链可以用树布局</div>
           <p>
-            1. 可以做相邻节点高亮 \n 2. 子节点展开 3.自定义节点样式 4.Legend
-            图例
+            1. 可以做相邻节点高亮 2. 子节点展开 3.自定义节点样式 4.Legend 图例
           </p>
           <div>
             <a href="https://g6.antv.vision/zh/examples/gallery">G6 图表示例</a>
