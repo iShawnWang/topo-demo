@@ -257,10 +257,14 @@ export default () => {
           </div>
           <div>---</div>
           其它图表库
-          <a href="https://observablehq.com/@d3/gallery">D3</a>
-          <a href="https://echarts.apache.org/examples/zh/index.html#chart-type-graph">
-            ECharts
-          </a>
+          <div>
+            <a href="https://observablehq.com/@d3/gallery">D3</a>
+          </div>
+          <div>
+            <a href="https://echarts.apache.org/examples/zh/index.html#chart-type-graph">
+              ECharts
+            </a>
+          </div>
         </Modal>
       </div>
       <div>
