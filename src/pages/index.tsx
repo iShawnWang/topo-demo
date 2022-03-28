@@ -229,7 +229,17 @@ export default () => {
             setModal({ visible: false });
           }}
         >
-          数据结构为图, 选择 AntV G6 图布局
+          <div>
+            <a
+              style={{ color: 'red' }}
+              href="https://echarts.apache.org/examples/zh/editor.html?c=graph-label-overlap"
+            >
+              结论效果图
+            </a>
+          </div>
+          <div>---</div>
+          <div>数据结构为图, 选择 AntV G6 图布局</div>
+          <div>单个应用调用链可以用树布局</div>
           <p>
             1. 可以做相邻节点高亮 \n 2. 子节点展开 3.自定义节点样式 4.Legend
             图例
@@ -243,7 +253,11 @@ export default () => {
             </a>
           </div>
           <div>---</div>
-          <div>单个应用调用链可以用树布局</div>
+          其它图表库
+          <a href="https://observablehq.com/@d3/gallery">D3</a>
+          <a href="https://echarts.apache.org/examples/zh/index.html#chart-type-graph">
+            ECharts
+          </a>
         </Modal>
       </div>
       <div>
